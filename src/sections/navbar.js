@@ -20,7 +20,7 @@ export default function Navbar() {
             </div>
 
             <div className="col-span-3">
-                <div className="flex flex-col">
+                <div className="hidden xl:flex flex-col">
                     <h1 className="font-bold text-3xl">AI Engineer</h1>
                     <h1 className="font-bold text-3xl">Backend</h1>
                     <h1 className="font-bold text-3xl">Frontend</h1>
@@ -40,7 +40,7 @@ export default function Navbar() {
             </div>
 
             <div className="col-span-3">
-                <h1 className="font-bold text-3xl">
+                <h1 className="font-bold hidden xl:block text-3xl">
                     My passion is creating meaningful products for the world
                     that solves real problems, delights users and exceeds
                     expectations.

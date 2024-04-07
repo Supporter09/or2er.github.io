@@ -29,7 +29,7 @@ export default function Journey() {
                         <Image
                             src={part.img}
                             alt="journey img"
-                            className={`aspect-video  h-auto object-cover ${index % 2 == 0 ? "mr-auto" : "ml-auto"} `}
+                            className={`aspect-video h-auto object-cover ${index % 2 == 0 ? "mr-auto" : "ml-auto"} `}
                         />
                     </div>
                 </div>

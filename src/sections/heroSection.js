@@ -10,7 +10,7 @@ import pnq from "@/assets/pnq.png";
 export default function HeroSection() {
   return (
     <section className="flex justify-center relative">
-      <h1 className="text-primary-red font-right_grotesk leading-none text-[300px] lg:text-[400px] xl:text-[600px] 2xl:text-[720px]">
+      <h1 className="text-primary-red font-right_grotesk leading-none text-[160px] md:text-[300px] lg:text-[400px] xl:text-[600px] 2xl:text-[720px]">
         TEAM OR2ER
       </h1>
 

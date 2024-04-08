@@ -5,7 +5,7 @@ import { minh_nhat, nhat_quang, ninh_lb } from "@/assets/assets";
 export default function Motivation() {
     return (
         <section
-            className={`md:min-h-screen flex flex-col justify-center pb-8 md:pb-52 px-6 lg:px-24`}
+            className={`md:min-h-screen flex flex-col justify-center pb-12 md:pb-52 px-6 lg:px-24`}
         >
             <div className="flex justify-center">
                 <div className="relative text-black leading-[0.8] pt-8 font-right_grotesk">

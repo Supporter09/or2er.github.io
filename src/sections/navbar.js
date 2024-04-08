@@ -7,7 +7,6 @@ import { useState } from "react";
 export default function Navbar() {
     const [toggle, setToggle] = useState(false);
 
-
     return (
         <div className="grid grid-cols-12 pt-8 px-6">
             <div className="col-span-1">
@@ -31,11 +30,19 @@ export default function Navbar() {
             </div>
 
             <div className="col-span-4">
-                <div className="flex flex-row justify-center gap-8">
-                    <p className="text-xl">People</p>
-                    <p className="text-xl">Journey</p>
-                    <p className="text-xl">Projects</p>
-                    <p className="text-xl">Techstack</p>
+                <div className="hidden sm:flex flex-row justify-center gap-8 ">
+                    <a href="#people">
+                        <p className="text-xl">People</p>
+                    </a>
+                    <a href="#journey">
+                        <p className="text-xl">Journey</p>
+                    </a>
+                    <a href="#projects">
+                        <p className="text-xl">Projects</p>
+                    </a>
+                    <a href="#techstack">
+                        <p className="text-xl">Techstack</p>
+                    </a>
                 </div>
             </div>
 

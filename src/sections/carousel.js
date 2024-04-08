@@ -61,6 +61,7 @@ export default function Carousel() {
     return (
         <section
             // className={`min-h-screen flex flex-col justify-center py-24 px-6 lg:px-24 overflow-hidden`}
+            id="#projects"
             className="overflow-x-hidden"
         >
             <div className={`flex flex-col justify-center px-6 lg:px-24`}>

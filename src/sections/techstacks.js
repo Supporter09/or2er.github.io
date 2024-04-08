@@ -22,15 +22,15 @@ export default function TechStacks() {
           <h1 className="text-[180px] xl:text-[200px] text-[#000000] leading-none font-right_grotesk">
             OUR TECHSTACK
           </h1>
-          <h1 className="text-[180px] xl:text-[200px] text-[#F10000] leading-[0.6] font-right_grotesk">
+          <h1 className="text-[180px] xl:text-[200px] text-primary-red leading-[0.6] font-right_grotesk">
             AND TOOLS
           </h1>
         </div>
 
-        <p className="text-1xl md:text-3xl pb-16">
+        <p className="text-xl/normal xl:text-3xl/normal pb-8 xl:pb-16">
           - 1+ years of client work
         </p>
-        <p className="text-1xl md:text-3xl pr-16">
+        <p className="text-xl/normal xl:text-3xl/normal pr-16">
           Members of Team or2er come from a variety of professional
           backgrounds. Our tech stack is made up of several
           cutting-edge framework and tool components working together.

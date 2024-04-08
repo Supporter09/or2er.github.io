@@ -11,7 +11,7 @@ export default function People() {
             className={`min-h-screen flex flex-col justify-center py-24 px-6 lg:px-24 overflow-hidden`}
         >
             <div className="text-center">
-                <h1 className="text-[250px] md:text-[300px] xl:text-[500px] text-[#F10000] leading-none font-right_grotesk">
+                <h1 className="text-[250px] md:text-[300px] xl:text-[500px] text-primary-red leading-none font-right_grotesk">
                     BEYOND THE
                 </h1>
                 <h1 className="text-[250px] md:text-[300px] xl:text-[500px] leading-[0.6] font-right_grotesk text-stroke">
@@ -38,7 +38,7 @@ export default function People() {
                 <p className="text-2xl/normal xl:text-4xl/normal pr-16 xl:pr-24">
                     We are five enthusiastic developers, aged 19-20, form the
                     or2er team. All of whom are{" "}
-                    <span className="text-[#F10000] underline underline-offset-8">
+                    <span className="text-primary-red underline underline-offset-8">
                         dedicated to using AI to create solutions
                     </span>{" "}
                     that makes a positive impact. Each member brings their own

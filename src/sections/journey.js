@@ -8,13 +8,13 @@ export default function Journey() {
             className={`min-h-screen flex flex-col justify-center py-24 px-6 lg:px-24 overflow-hidden`}
         >
             <div className="text-center">
-                <h1 className="text-[250px] md:text-[300px] xl:text-[500px] text-[#F10000] leading-none font-right_grotesk">
+                <h1 className="text-[250px] md:text-[300px] xl:text-[500px] text-primary-red leading-none font-right_grotesk">
                     <span className="text-stroke">OUR</span> JOURNEY
                 </h1>
             </div>
             {journey.map((part, index) => (
                 <div
-                    className={`flex pb-52 ${index % 2 == 0 ? "flex-row-reverse" : "flex-row"}`}
+                    className={`flex pb-24 xl:pb-52 ${index % 2 == 0 ? "flex-row-reverse" : "flex-row"}`}
                     key={index}
                 >
                     <div className="w-1/2 flex justify-end">

@@ -27,6 +27,11 @@ import scikit from "./scikit.png";
 import spring from "./spring.png";
 import tensorflow from "./tensorflow.png";
 
+// Carousel
+import testeria from "./Carousel/testeria.png"
+import v2ray from "./Carousel/v2ray.png"
+import hsa from "./Carousel/hust_smart_ass.png"
+
 // Gif
 import red from "./red.gif";
 
@@ -55,4 +60,7 @@ export {
     scikit,
     spring,
     tensorflow,
+    testeria,
+    v2ray,
+    hsa
 };

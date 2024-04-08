@@ -12,21 +12,21 @@ export default function People() {
             className={`min-h-screen flex flex-col justify-center py-12 md:py-28 px-6 lg:px-24 overflow-hidden`}
         >
             <div className="text-center">
-                <h1 className="text-[160px] sm:text-[250px] md:text-[300px] xl:text-[500px] text-primary-red leading-none font-right_grotesk">
+                <h1 className="text-[100px] xsm:text-[120px] sm:text-[250px] md:text-[300px] xl:text-[500px] text-primary-red leading-none font-right_grotesk">
                     BEYOND THE
                 </h1>
-                <h1 className="text-[160px] sm:text-[250px] md:text-[300px] xl:text-[500px] leading-[0.6] font-right_grotesk text-stroke">
+                <h1 className="text-[100px] xsm:text-[120px] sm:text-[250px] md:text-[300px] xl:text-[500px] leading-[0.6] font-right_grotesk text-stroke">
                     EXPECTATION
                 </h1>
             </div>
 
             <div className="py-16 relative">
-                <h1 className="text-6xl sm:text-[60px] md:text-[80px] xl:text-[120px] font-bold">
+                <h1 className="text-6xl text-[50px] sm:text-[60px] md:text-[80px] xl:text-[120px] font-bold">
                     What is our identity
                     <br /> and how <br />
                     may we help you?
                 </h1>
-                <div className="h-10 md:h-16 xl:h-24 w-auto aspect-[3.5/1] 2xl:aspect-[7/1] bg-[#F10000] absolute top-[35%] md:top-[50%] left-[65%] md:left-[50%] translate-x-[-30%] lg:translate-x-[-50%] translate-y-[-52%] md:translate-y-[-60%]" />
+                <div className="sm:h-9 md:h-16 xl:h-24 w-auto aspect-[3.5/1] 2xl:aspect-[7/1] bg-[#F10000] absolute top-[35%] md:top-[50%] left-[70%] md:left-[50%] translate-x-[-30%] lg:translate-x-[-50%] translate-y-[-52%] md:translate-y-[-60%]" />
                 <p className="text-2xl">Team or2er</p>
                 <Image
                     src={decor}

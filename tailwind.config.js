@@ -23,6 +23,9 @@ module.exports = {
             },
             colors: {
                 "primary-red": "#F10000",
+            },
+            screens: {
+                "xsm": "375px"
             }
         },
     },

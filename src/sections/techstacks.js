@@ -15,14 +15,14 @@ import Image from "next/image";
 export default function TechStacks() {
   return (
     <section
-      className={`grid grid-cols-1 lg:grid-cols-2 py-24 px-6 lg:px-24 overflow-hidden`}
+      className={`grid grid-cols-1 lg:grid-cols-2 py-8 md:py-24 px-6 lg:px-24 overflow-hidden`}
     >
       <div className="flex flex-col">
         <div className="text-left">
-          <h1 className="text-[180px] xl:text-[200px] text-[#000000] leading-none font-right_grotesk">
+          <h1 className="text-[120px] md:text-[180px] xl:text-[200px] text-[#000000] leading-none font-right_grotesk">
             OUR TECHSTACK
           </h1>
-          <h1 className="text-[180px] xl:text-[200px] text-primary-red leading-[0.6] font-right_grotesk">
+          <h1 className="text-[120px] md:text-[180px] xl:text-[200px] text-primary-red leading-[0.6] font-right_grotesk">
             AND TOOLS
           </h1>
         </div>

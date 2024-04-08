@@ -5,7 +5,7 @@ import { journey } from "@/constants/constants";
 export default function Journey() {
     return (
         <section
-            className={`min-h-screen flex flex-col justify-center py-24 px-6 lg:px-24 overflow-hidden`}
+            className={`min-h-screen flex flex-col justify-center pt-24 px-6 lg:px-24 overflow-hidden`}
         >
             <div className="text-center">
                 <h1 className="text-[250px] md:text-[300px] xl:text-[500px] text-primary-red leading-none font-right_grotesk">

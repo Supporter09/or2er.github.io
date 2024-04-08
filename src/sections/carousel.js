@@ -65,7 +65,7 @@ export default function Carousel() {
         >
             <div className={`flex flex-col justify-center px-6 lg:px-24`}>
                 <div className="text-left">
-                    <h1 className="text-[180px] sm:text-[250px] md:text-[300px] xl:text-[500px] text-primary-red leading-[0.8] pt-8 font-right_grotesk">
+                    <h1 className="text-[120px] sm:text-[250px] md:text-[300px] xl:text-[500px] text-primary-red leading-[0.8] pt-8 font-right_grotesk">
                         OUR<span className="text-black">WORKS</span>
                     </h1>
                     <p className="text-xl/normal xl:text-3xl/normal max-w-xl">

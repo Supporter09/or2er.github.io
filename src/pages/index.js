@@ -1,11 +1,11 @@
-// import Image from "next/image";
+// Sections
 import Navbar from "@/sections/navbar";
 import Footer from "@/sections/footer";
-// Sections
 import HeroSection from "@/sections/heroSection";
 import People from "@/sections/people";
 import Journey from "@/sections/journey";
 import TechStacks from "@/sections/techstacks";
+import Carousel from "@/sections/carousel"
 
 // function HightlightText({ text }) {
 //     processed_text = text.split("");
@@ -32,6 +32,7 @@ export default function Home() {
             <HeroSection />
             <People />
             <Journey />
+            <Carousel />
             <TechStacks />
             <Footer />
         </div>

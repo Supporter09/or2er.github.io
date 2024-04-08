@@ -21,6 +21,9 @@ module.exports = {
                 right_grotesk: ["var(--font-right_grotesk)"],
                 right_grotesk_dark: ["var(--font-right_grotesk-dark)"],
             },
+            colors: {
+                "primary-red": "#F10000",
+            }
         },
     },
     plugins: [require("flowbite/plugin")],

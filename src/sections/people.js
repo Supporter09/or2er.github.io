@@ -9,7 +9,7 @@ export default function People() {
     return (
         <section
             id="#people"
-            className={`min-h-screen flex flex-col justify-center py-12 md:py-24 px-6 lg:px-24 overflow-hidden`}
+            className={`min-h-screen flex flex-col justify-center py-12 md:py-28 px-6 lg:px-24 overflow-hidden`}
         >
             <div className="text-center">
                 <h1 className="text-[160px] sm:text-[250px] md:text-[300px] xl:text-[500px] text-primary-red leading-none font-right_grotesk">

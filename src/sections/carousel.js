@@ -73,7 +73,7 @@ export default function Carousel() {
                         kinds of customer.
                     </p>
 
-                    <div className="flex items-center py-2 md:py-8">
+                    <div className="flex items-center py-2 md:py-4">
                         <button onClick={previous}>
                             <IoIosArrowDropleft
                                 size={40}

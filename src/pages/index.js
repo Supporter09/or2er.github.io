@@ -5,7 +5,8 @@ import HeroSection from "@/sections/heroSection";
 import People from "@/sections/people";
 import Journey from "@/sections/journey";
 import TechStacks from "@/sections/techstacks";
-import Carousel from "@/sections/carousel"
+import Carousel from "@/sections/carousel";
+import Motivation from "@/sections/motivation"
 
 // function HightlightText({ text }) {
 //     processed_text = text.split("");
@@ -32,6 +33,7 @@ export default function Home() {
             <HeroSection />
             <People />
             <Journey />
+            <Motivation />
             <Carousel />
             <TechStacks />
             <Footer />

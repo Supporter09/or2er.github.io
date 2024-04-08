@@ -1,5 +1,3 @@
-
-
 // SVGs
 import decor from "./decor.svg";
 import image_decor from "./image_decor.svg";
@@ -28,9 +26,14 @@ import spring from "./spring.png";
 import tensorflow from "./tensorflow.png";
 
 // Carousel
-import testeria from "./Carousel/testeria.png"
-import v2ray from "./Carousel/v2ray.png"
-import hsa from "./Carousel/hust_smart_ass.png"
+import testeria from "./Carousel/testeria.png";
+import v2ray from "./Carousel/v2ray.png";
+import hsa from "./Carousel/hust_smart_ass.png";
+
+// Motivation
+import minh_nhat from "./Motivation/minh_nhat.png";
+import nhat_quang from "./Motivation/nhat_quang.png";
+import ninh_lb from "./Motivation/ninh_lb.png"
 
 // Gif
 import red from "./red.gif";
@@ -62,5 +65,8 @@ export {
     tensorflow,
     testeria,
     v2ray,
-    hsa
+    hsa,
+    minh_nhat,
+    nhat_quang,
+    ninh_lb
 };

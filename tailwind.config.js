@@ -25,7 +25,8 @@ module.exports = {
                 "primary-red": "#F10000",
             },
             screens: {
-                "xsm": "375px"
+                "xsm": "375px",
+                "3xl": "2500px"
             }
         },
     },

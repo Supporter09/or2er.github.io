@@ -9,7 +9,7 @@ export default function People() {
     return (
         <section
             id="#people"
-            className={`min-h-screen flex flex-col justify-center py-12 md:py-28 px-6 lg:px-24 overflow-hidden`}
+            className={`min-h-screen flex flex-col justify-center py-12 md:py-28 px-6 lg:px-24 3xl:px-52 overflow-hidden`}
         >
             <div className="text-center">
                 <h1 className="text-[100px] xsm:text-[120px] sm:text-[250px] md:text-[300px] xl:text-[500px] text-primary-red leading-none font-right_grotesk">
@@ -26,7 +26,7 @@ export default function People() {
                     <br /> and how <br />
                     may we help you?
                 </h1>
-                <div className="sm:h-9 md:h-16 xl:h-24 w-auto aspect-[3.5/1] 2xl:aspect-[7/1] bg-[#F10000] absolute top-[35%] md:top-[50%] left-[70%] md:left-[50%] translate-x-[-30%] lg:translate-x-[-50%] translate-y-[-52%] md:translate-y-[-60%]" />
+                <div className="sm:h-9 md:h-16 xl:h-24 w-auto aspect-[3.5/1] 2xl:aspect-[7/1] bg-[#F10000] absolute top-[35%] md:top-[50%] left-[70%] md:left-[50%] 3xl:left-[40%] translate-x-[-30%] lg:translate-x-[-50%] translate-y-[-52%] md:translate-y-[-60%]" />
                 <p className="text-2xl">Team or2er</p>
                 <Image
                     src={decor}

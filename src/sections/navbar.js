@@ -13,17 +13,16 @@ export default function Navbar() {
                 <Image
                     src={or2er_logo}
                     alt="or2er logo"
-                    width={32}
-                    height={32}
+                    className="w-8 h-auto 2xl:w-16"
                 />
             </div>
 
             <div className="col-span-3">
-                <div className="hidden xl:flex flex-col">
-                    <h1 className="font-bold text-3xl">AI Engineer</h1>
-                    <h1 className="font-bold text-3xl">Backend</h1>
-                    <h1 className="font-bold text-3xl">Frontend</h1>
-                    <h1 className="font-bold text-3xl underline">
+                <div className="hidden xl:flex flex-col gap-1">
+                    <h1 className="font-bold text-3xl 3xl:text-5xl">AI Engineer</h1>
+                    <h1 className="font-bold text-3xl 3xl:text-5xl">Backend</h1>
+                    <h1 className="font-bold text-3xl 3xl:text-5xl">Frontend</h1>
+                    <h1 className="font-bold text-3xl 3xl:text-5xl underline">
                         <a href="#">CV</a>
                     </h1>
                 </div>
@@ -32,22 +31,22 @@ export default function Navbar() {
             <div className="col-span-4">
                 <div className="hidden sm:flex flex-row justify-center gap-8 ">
                     <a href="#people">
-                        <p className="text-xl">People</p>
+                        <p className="text-xl 3xl:text-3xl">People</p>
                     </a>
                     <a href="#journey">
-                        <p className="text-xl">Journey</p>
+                        <p className="text-xl 3xl:text-3xl">Journey</p>
                     </a>
                     <a href="#projects">
-                        <p className="text-xl">Projects</p>
+                        <p className="text-xl 3xl:text-3xl">Projects</p>
                     </a>
                     <a href="#techstack">
-                        <p className="text-xl">Techstack</p>
+                        <p className="text-xl 3xl:text-3xl">Techstack</p>
                     </a>
                 </div>
             </div>
 
             <div className="col-span-3">
-                <h1 className="font-bold hidden xl:block text-3xl">
+                <h1 className="font-bold hidden xl:block text-3xl 3xl:text-5xl">
                     My passion is creating meaningful products for the world
                     that solves real problems, delights users and exceeds
                     expectations.

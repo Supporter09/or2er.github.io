@@ -16,7 +16,7 @@ export default function TechStacks() {
     return (
         <section
             id="#techstack"
-            className={`grid grid-cols-1 lg:grid-cols-2 py-12 md:py-24 px-6 lg:px-24 overflow-hidden`}
+            className={`grid grid-cols-1 lg:grid-cols-2 py-12 md:py-24 px-6 lg:px-24 3xl:px-52 overflow-hidden`}
         >
             <div className="flex flex-col">
                 <div className="text-left">

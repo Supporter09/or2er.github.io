@@ -6,11 +6,11 @@ export default function Journey() {
     return (
         <section
             id="#journey"
-            className={`min-h-screen flex flex-col justify-center pt-12 md:pt-24 px-6 lg:px-24 overflow-hidden`}
+            className={`min-h-screen flex flex-col justify-center pt-12 md:pt-24 px-6 lg:px-24 3xl:px-52 overflow-hidden`}
         >
             <div className="text-center">
                 <h1 className="text-[140px] md:text-[250px] lg:text-[300px] xl:text-[450px] text-primary-red leading-none font-right_grotesk">
-                    <span className="text-stroke">OUR</span> JOURNEY
+                    <span className="text-stroke 3xl:text-black">OUR</span> JOURNEY
                 </h1>
             </div>
             {journey.map((part, index) => (
